@@ -36,10 +36,3 @@ npm run build
 npm run preview
 ```
 
-### Notes
-
-- The original application logic and UI are preserved.
-- Seed/demo data is isolated in `src/data/initialData.js`.
-- Date/currency helpers are isolated in `src/utils/dateUtils.js`.
-- The main UI/state logic remains in `src/App.jsx`.
-- This is still a frontend demo: the original code's authentication, RBAC, and PostgreSQL content are demo/client-side behavior unless a real backend is added.
